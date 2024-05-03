@@ -18,11 +18,11 @@ static void Process1()
 {
     try
     {
-        WriteMessage(); 
+        WriteMessage();
     }
-    catch
+    catch (DivideByZeroException ex)
     {
-        Console.WriteLine("Exception caught in Process1");
+        Console.WriteLine($"Exception caught in Process1: {ex.Message}");
     }
 }
 
@@ -32,7 +32,12 @@ static void WriteMessage()
     double float2 = 0.0;
     int number1 = 3000;
     int number2 = 0;
+    byte smallNumber;
 
     Console.WriteLine(float1 / float2);
     Console.WriteLine(number1 / number2);
+    checked
+    {
+        smallNumber = (byte)number1;
+    }
 }
