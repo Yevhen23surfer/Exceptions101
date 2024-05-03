@@ -12,3 +12,4 @@
 /Users/yevgenskopets/Documents/IT/Course/kodehode/Modul B/csharpProjects/Exceptions101/obj/Debug/net8.0/Exceptions101.pdb
 /Users/yevgenskopets/Documents/IT/Course/kodehode/Modul B/csharpProjects/Exceptions101/obj/Debug/net8.0/Exceptions101.genruntimeconfig.cache
 /Users/yevgenskopets/Documents/IT/Course/kodehode/Modul B/csharpProjects/Exceptions101/obj/Debug/net8.0/ref/Exceptions101.dll
+/Users/yevgenskopets/Documents/IT/Course/kodehode/Modul B/csharpProjects/Exceptions101/obj/Debug/net8.0/Exceptions101.sourcelink.json
